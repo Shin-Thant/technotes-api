@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const noteControllers = require("../controllers/noteController");
-const verifyJWT = require("../middlewares/verifyJwt");
+const verifyJWT = require("../middlewares/verifyJWT");
 
 router.use(verifyJWT);
 
